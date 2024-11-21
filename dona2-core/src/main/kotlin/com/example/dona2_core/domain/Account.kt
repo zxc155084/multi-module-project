@@ -19,7 +19,4 @@ data class Account(
 
     var email: String? = null,
     var name: String? = null,
-) {
-    // 無參構造函數
-    constructor() : this(username = "", password = "")
-}
+)

@@ -16,7 +16,4 @@ data class Role(
 
     @Column(length = 30)
     var attributes: String? = null,
-) {
-    // 無參構造函數
-    constructor() : this(authority = "")
-}
+)
